@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Carlos Eduardo da Silva (aka Tresloukadu).
+ *
+ * NOTICE OF LICENSE
+ *
+ * 
+ * The MIT License
+ *
+ * Copyright (c) 2012 TRESLOUKADU
+ *
+ * http://www.tresloukadu.com.br/category/php/magento/
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ *  
+ *  
+ *
+ * @category   Tresloukadu
+ * @package    Tresloukadu_Motoboy
+ * @copyright  Copyright (c) 2013 Carlos Eduardo da Silva (http://www.tresloukadu.com.br)
+ * @author     Carlos Eduardo da Silva <carlosedasilva@gmail.com>
+ * @license    http://opensource.org/licenses/MIT
+ */
+-->
+<config>
+    <sections>
+        <carriers>
+            <groups>
+                <tresloukadu_motoboy translate="label" module="tresloukadu_motoboy">
+                    <label>Motoboy - Carlos E. Silva (aka Tresloukadu)</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>1</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <comment>
+                        <![CDATA[
+                            <div>
+                                <br />
+                                <strong style="font-size:14px">
+                                Primeira versão do módulo de Motoboy para entrega nos bairros.
+                                </strong>
+                                <br /><br />
+                                <hr /><br /><br />
+                            </div>
+                        ]]>
+                    </comment>
+                    <fields>
+                        <active translate="label">
+                            <label>Habilitar</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </active>
+                        
+                        <min_order_value translate="label">
+                            <label>Valor Mínimo de Compra</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>130</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </min_order_value>
+                                             
+                    </fields>
+                </tresloukadu_motoboy>
+            </groups>
+        </carriers>
+    </sections>
+</config>
