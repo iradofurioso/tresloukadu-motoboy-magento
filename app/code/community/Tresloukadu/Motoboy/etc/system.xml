@@ -76,12 +76,23 @@
                         <min_order_value translate="label">
                             <label>Valor Mínimo de Compra</label>
                             <frontend_type>text</frontend_type>
-                            <sort_order>130</sort_order>
+                            <sort_order>11</sort_order>
                             <show_in_default>1</show_in_default>
                             <show_in_website>1</show_in_website>
                             <show_in_store>1</show_in_store>
                         </min_order_value>
-                                             
+						
+						<bairros translate="label">
+							<label>Bairro</label>
+							<sort_order>13</sort_order>
+							<frontend_type>textarea</frontend_type>
+							<show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+							<comment>Informe os bairros juntos aos preços que você oferece. No seguinte formato -> bairro#10.00, 
+							ex.: Centro#10.00. Nome do bairro e concatena com preço utilizando "#". Lembre-se de usar os preços com "."(ponto) nas casas decimais. 
+							Para ir para o próximo bairro é só da "Enter", será um bairro por linha.</comment>
+						</bairros>
                     </fields>
                 </tresloukadu_motoboy>
             </groups>
